@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task9</title>
+</head>
+<link rel="stylesheet" href="Task9.css">
+<script src="Task9.js" defer></script>
+<script src="https://kit.fontawesome.com/2868a4adb9.js" crossorigin="anonymous"></script>
+
+<body>
+    <div class="header">
+        <h1>What are you going to plan?</h1>
+        <button type="button" class="btn" onclick="openPopup()"> 
+            <i class="fa-solid fa-square-plus fa-2xl" style="color: #700659;">
+            </i> Add New
+        </button>
+
+        <div class="popup" id="popup">
+            <h2>Add a new todo</h2>
+            <form action="" class="form">
+
+                <label for="todotitle"> Entre your todo title : </label>
+                <input type="text" class="todotitle" required>
+                <label for="tododescription"> Entre your todo description : </label>
+                <input type="text" class="tododescription" required>
+                <label for="tododeadline"> Entre your todo Deadline </label>
+                <input type="date" class="tododeadline" required>
+                <button type="submit" class="submitbtn">Add and Save</button>
+            </form>
+            <button onclick="closePopup()" class="closebtn">X</button>
+        </div>
+    </div>
+
+    <div class="list">
+        <div class="todo"> <h1>List Of TO-DO's</h1>
+        
+        </div>
+    </div>
+   
+</body>
+</html>

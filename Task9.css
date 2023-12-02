@@ -1,0 +1,110 @@
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    color: #700659;
+}
+h2{
+    color: #700659;
+}
+.header{
+    background: url(todo-list-seamless-pattern-universal-background-vector-7561340.jpg);
+
+    border-left: solid black 3px;
+    width: 99%;
+    height: 8vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.btn{
+    background: url(todo-list-seamless-pattern-universal-background-vector-7561340.jpg);
+    border: none;
+    font-size: medium;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.popup{
+    width: 40%;
+    height: 45vh;
+    background-color: white;
+    position: absolute;
+    top: 10%;
+    padding-left: 5%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow:2px 2px 10px 1px rgb(52, 50, 50);
+    visibility: hidden;
+}
+.open-popup{
+    visibility: visible;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap:10px;1
+}
+.submitbtn{
+    width: 150px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    box-shadow:2px 2px 10px 1px rgb(52, 50, 50);
+    margin-top: 5%;
+    border: solid white 1px;
+    border-radius: 10px;
+}
+.closebtn{
+    cursor: pointer;
+    position: absolute;
+    top: 7%;
+    left: 80%;
+    border: none;
+    background-color: white;
+    font-size: larger;
+}
+input{
+    border:solid rgb(215, 213, 213) 1px;
+    border-radius: 5px;
+}
+.todotitle{
+    height:30px ;
+}
+.tododescription{
+    height:60px;
+}   
+.tododeadline{
+    height: 20px;
+    width: 50%;
+    content: none;
+}
+.list{
+    background: url(todo-list-seamless-pattern-universal-background-vector-7561340.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 99%;
+    height: 85vh;
+    border: solid black 3px;
+    border-top: none;
+    border-right: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+}
+.todo{
+    width: 75%;
+    height: 8vh;
+    margin-left: 10%;
+    border: solid black 1px;
+    border-radius:10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
